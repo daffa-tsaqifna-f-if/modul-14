@@ -12,4 +12,12 @@ func main() {
 		max = b2
 		min = b1
 	}
+	if max < b3 {
+		max = b3
+	}
+	if min > b3 {
+		min = b3
+	}
+	fmt.Println("Terbesar", max)
+	fmt.Println("Terkecil", min)
 }
